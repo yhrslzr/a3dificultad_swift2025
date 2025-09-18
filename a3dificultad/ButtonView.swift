@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct ButtonView: View {
+    
     @Binding var level: Int
+    let tam: CGFloat = 15
+    
     var body: some View {
         // Vista Botones
         ZStack (alignment: .centerFirstTextBaseline){
@@ -20,6 +23,7 @@ struct ButtonView: View {
                     }
                 }) {
                     Text("Brisa dulce")
+                        .font(.custom("kurokane", size: tam))
                         .padding(10)
                 }
                 .background(Color.blue)
@@ -34,6 +38,7 @@ struct ButtonView: View {
                     
                 }) {
                     Text("Paseo Azucarado")
+                        .font(.custom("kurokane", size: tam))
                         .padding(10)
                 }
                 .background(Color.teal)
@@ -48,6 +53,7 @@ struct ButtonView: View {
                     
                 }) {
                     Text("Expedición ácida")
+                        .font(.custom("kurokane", size: tam))
                         .padding(10)
                 }
                 .background(Color.green)
@@ -69,6 +75,7 @@ struct ButtonView: View {
                     
                 }) {
                     Text("Hazaña picapica")
+                        .font(.custom("kurokane", size: tam))
                         .padding(10)
                 }
                 .background(Color.pink)
@@ -83,6 +90,7 @@ struct ButtonView: View {
                     
                 }) {
                     Text("Prueba ardiente")
+                        .font(.custom("kurokane", size: tam))
                         .padding(10)
                 }
                 .background(Color.orange)
@@ -97,6 +105,7 @@ struct ButtonView: View {
                     
                 }) {
                     Text("Lucha abrasadora")
+                        .font(.custom("kurokane", size: tam))
                         .padding(10)
                 }
                 .background(Color.gray)
@@ -116,6 +125,7 @@ struct ButtonView: View {
                     
                 }) {
                     Text("Crisis de Magma")
+                        .font(.custom("kurokane", size: tam))
                         .padding(10)
                 }
                 .background(Color("lvl7"))
@@ -130,6 +140,7 @@ struct ButtonView: View {
                     
                 }) {
                     Text("Derritealmas")
+                        .font(.custom("kurokane", size: tam))
                         .padding(10)
                 }
                 .background(Color.black)
@@ -144,6 +155,7 @@ struct ButtonView: View {
                     
                 }) {
                     Text("Derritealmas EX")
+                        .font(.custom("kurokane", size: tam))
                         .padding(10)
                 }
                 .background(Color("lvl9"))

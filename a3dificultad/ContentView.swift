@@ -20,7 +20,7 @@ struct ContentView: View {
                 
                 //Título
                 Text("Selecciona tu 'picante'")
-                    .font(.title).bold()
+                    .font(.custom("kurokane", size: 28)).bold()
                     .onAppear(){
                         playMusic()
                     }

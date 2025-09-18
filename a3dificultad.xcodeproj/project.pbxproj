@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		353F54862E7245C300BE1967 /* a3dificultad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a3dificultad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353F54862E7245C300BE1967 /* a3dificultad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = a3dificultad.app; path = "/Users/win603/Documents/iOSClases_YSO/a3dificultad/build/Debug-iphoneos/a3dificultad.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3580AAAD2E7B7F9C0015804E /* Exceptions for "a3dificultad" folder in "a3dificultad" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 353F54852E7245C300BE1967 /* a3dificultad */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		353F54882E7245C300BE1967 /* a3dificultad */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3580AAAD2E7B7F9C0015804E /* Exceptions for "a3dificultad" folder in "a3dificultad" target */,
+			);
 			path = a3dificultad;
 			sourceTree = "<group>";
 		};
@@ -33,16 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				353F54882E7245C300BE1967 /* a3dificultad */,
-				353F54872E7245C300BE1967 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		353F54872E7245C300BE1967 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				353F54862E7245C300BE1967 /* a3dificultad.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +99,7 @@
 			mainGroup = 353F547D2E7245C300BE1967;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 353F54872E7245C300BE1967 /* Products */;
+			productRefGroup = 353F547D2E7245C300BE1967;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -256,6 +260,7 @@
 				DEVELOPMENT_TEAM = L45K4QVPUS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = a3dificultad/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +289,7 @@
 				DEVELOPMENT_TEAM = L45K4QVPUS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = a3dificultad/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
